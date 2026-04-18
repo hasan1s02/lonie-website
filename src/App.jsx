@@ -6,6 +6,7 @@ import { Layout } from './components/Layout';
 const Home = lazy(() => import('./pages/Home'));
 const Privacy = lazy(() => import('./pages/Privacy'));
 const Blog = lazy(() => import('./pages/Blog'));
+const Terms = lazy(() => import('./pages/Terms'));
 
 // Simple loading fallback
 const Loading = () => (
@@ -23,6 +24,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="blog" element={<Blog />} />
             <Route path="privacy" element={<Privacy />} />
+            <Route path="terms" element={<Terms />} />
           </Route>
         </Routes>
       </Suspense>

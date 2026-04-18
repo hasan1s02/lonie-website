@@ -22,6 +22,7 @@ const Navbar = () => (
       <Link to="/blog">Blog</Link>
       <a href="/#pricing">Pricing</a>
       <Link to="/privacy">Privacy Policy</Link>
+      <Link to="/terms">Terms of Service</Link>
     </nav>
   </header>
 );
@@ -37,6 +38,7 @@ const Footer = () => (
       <div className="footer-links">
         <Link to="/blog">Blog</Link>
         <Link to="/privacy">Privacy Policy</Link>
+        <Link to="/terms">Terms of Service</Link>
       </div>
     </div>
   </footer>
